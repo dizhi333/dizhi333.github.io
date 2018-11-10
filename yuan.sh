@@ -12,12 +12,9 @@ PLAIN='\033[0m'
 getAbout() {
 	echo ""
 	echo " ========================================================= "
-	echo " \                 SuperUpdate.sh  Script                / "
-	echo " \            Choose a faster mirror for Linux           / "
-	echo -e "\       Version: ${GREEN}1.0.3${PLAIN} (2 Nov 2018)    / "
-	echo " ========================================================= "
 	echo -e " Version: ${GREEN}1.0.3${PLAIN} (2 Nov 2018) "
 	echo " wget -O yuan.sh https://git.io/fpt02 && sudo bash yuan.sh"
+	echo " ========================================================= "
 	echo ""
 }
 
