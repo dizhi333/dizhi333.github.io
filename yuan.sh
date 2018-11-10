@@ -207,3 +207,5 @@ setSources(){
 para=$1
 setSources
 echo -e "${GREEN}Done${PLAIN}"
+
+rm $0
