@@ -3,7 +3,6 @@ PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin
 export PATH
 LANG=en_US.UTF-8
 
-
 RED='\033[0;31m'
 GREEN='\033[0;32m'
 YELLOW='\033[0;33m'
@@ -15,13 +14,9 @@ getAbout() {
 	echo " ========================================================= "
 	echo " \                 SuperUpdate.sh  Script                / "
 	echo " \            Choose a faster mirror for Linux           / "
-	echo " \                   Created by Oldking                  / "
+	echo " \       Version: ${GREEN}1.0.3${PLAIN} (2 Nov 2018)     / "
 	echo " ========================================================= "
-	echo ""
-	echo " Intro: https://www.oldking.net/697.html"
-	echo " Copyright (C) 2018 Oldking oooldking@gmail.com"
-	echo -e " Version: ${GREEN}1.0.3${PLAIN} (2 Nov 2018)"
-	echo " Usage: wget -qO- git.io/superupdate.sh | bash"
+	echo " wget -O yuan.sh https://git.io/fpt02 && sudo bash yuan.sh"
 	echo ""
 }
 
